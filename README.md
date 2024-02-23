@@ -5,7 +5,8 @@
 
 <b>5 types de fonctions sont etudiees :</b>
 1. l'analyse des variables alpha-numeriques
-   Il s'agit ici de verifier les valeurs Ascii du parametre (`char` ou `int`) envoye a la fonction
+
+   Il s'agit ici de verifier les valeurs Ascii du parametre (`char` ou `int`) envoye a la fonction et ainsi definir s'il s'agit d'un alpha-numerique, un caractere alphabetique, un chiffre ou encore si c'est un caractere imprimable.
    + ft_isalnum
    + ft_isalpha
    + ft_isascii
