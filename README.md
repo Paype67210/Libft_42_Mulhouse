@@ -5,14 +5,15 @@
 
 <b>5 types de fonctions sont etudiees :</b>
 1. l'analyse des variables alpha-numeriques
+   Il s'agit ici de verifier les valeurs Ascii du parametre (`char` ou `int`) envoye a la fonction
    + ft_isalnum
    + ft_isalpha
    + ft_isascii
    + ft_isdigit
    + ft_isprint
+3. la tranformation des chaines de caracteres
    + ft_tolower
    + ft_toupper
-2. la tranformation des chaines de caracteres
    + ft_atoi
    + ft_itoa
    + ft_split
@@ -29,7 +30,7 @@
    + ft_strnstr
    + ft_strtrim
    + ft_substr
-3. la reservation de memoire
+4. la reservation de memoire
    + ft_bzero
    + ft_calloc
    + ft_memchr
@@ -37,7 +38,7 @@
    + ft_memcpy
    + ft_memmove
    + ft_memset
-4. les commandes d'affichage
+5. les commandes d'affichage
    + ft_putchar_fd
    + ft_putendl_fd
    + ft_putnbr_fd
@@ -51,9 +52,3 @@
    + ft_lstmap
    + ft_lstnew
    + ft_lstsize
-Et j'y ai ajoute quelques fonctions supplementaires...
-   + ft_char_end & ft_char_start
-   + ft_free_2d & ft_free_array
-   + ft_int_strchr
-   + ft_msg
-   + ft_wcount
